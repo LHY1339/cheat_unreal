@@ -16,12 +16,16 @@
 
 #ifdef UE_4_27
 #define POST_RENDER_INDEX 0x63
-#elif UE_5_3
+#endif
+#ifdef UE_5_3
 #define POST_RENDER_INDEX 0x70
-#elif UE_5_5
+#endif
+#ifdef UE_5_5
 #define POST_RENDER_INDEX 0x72
-#elif UE_5_6
+#endif
+#ifdef UE_5_6
 #define POST_RENDER_INDEX 0x6F
-#elif UE_5_7
+#endif
+#ifdef UE_5_7
 #define POST_RENDER_INDEX 0x6F
 #endif
